@@ -1,0 +1,1 @@
+# kh69coin-core
