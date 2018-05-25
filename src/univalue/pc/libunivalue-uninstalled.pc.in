@@ -6,5 +6,4 @@ includedir=@includedir@
 Name: libunivalue
 Description: libunivalue, C++ universal value object and JSON library
 Version: @VERSION@
-Libs: -L${libdir} -lunivalue
-Cflags: -I${includedir}
+Libs: ${pc_top_builddir}/${pcfiledir}/libunivalue.la
